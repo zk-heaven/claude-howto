@@ -1,0 +1,34 @@
+:root {
+  /* Brand colors from design system */
+  --vp-c-brand-1: #22C55E;
+  --vp-c-brand-2: #16A34A;
+  --vp-c-brand-3: #15803D;
+  --vp-c-brand-soft: rgba(34, 197, 94, 0.16);
+
+  /* Typography */
+  --vp-font-family-base: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', 'Cascadia Code', monospace;
+
+  /* Accent */
+  --vp-button-brand-bg: #22C55E;
+  --vp-button-brand-hover-bg: #16A34A;
+  --vp-button-brand-active-bg: #15803D;
+
+  /* Gray secondary */
+  --vp-c-text-2: #6B7280;
+  --vp-c-text-3: #9CA3AF;
+}
+
+.dark {
+  --vp-c-bg: #0A0A0A;
+  --vp-c-bg-alt: #1A1A1A;
+  --vp-c-bg-elv: #1A1A1A;
+  --vp-c-brand-1: #22C55E;
+  --vp-c-brand-2: #4ADE80;
+  --vp-c-brand-3: #22C55E;
+}
+
+/* Logo sizing in sidebar */
+.VPSidebar .VPNavBarTitle .logo {
+  max-height: 32px;
+}

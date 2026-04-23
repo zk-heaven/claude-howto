@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="resources/logos/claude-howto-logo-dark.svg">
-  <img alt="Claude How To" src="resources/logos/claude-howto-logo.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./resources/logos/claude-howto-logo-dark.svg">
+  <img alt="Claude How To" src="./resources/logos/claude-howto-logo.svg">
 </picture>
 
 # Style Guide
@@ -509,8 +509,8 @@ All documents that start with a logo use the `<picture>` element for dark/light 
 
 ```html
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="resources/logos/claude-howto-logo-dark.svg">
-  <img alt="Claude How To" src="resources/logos/claude-howto-logo.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./resources/logos/claude-howto-logo-dark.svg">
+  <img alt="Claude How To" src="./resources/logos/claude-howto-logo.svg">
 </picture>
 ```
 

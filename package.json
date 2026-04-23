@@ -1,0 +1,16 @@
+{
+  "name": "claude-howto-docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "node .vitepress/scripts/copy-assets.mjs && vitepress build && node .vitepress/scripts/copy-assets.mjs --cleanup",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-mermaid": "^2.0.17",
+    "mermaid": "^11.12.3"
+  }
+}
